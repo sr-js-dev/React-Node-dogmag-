@@ -1,0 +1,22 @@
+.popup-container {
+  z-index: 9;
+  width: 700px;
+  max-height: 500px;
+}
+
+.popup-map {
+  background-color: var(--basic-color);
+  width: 700px;
+  max-height: 500px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btn-close {
+  background-color: black;
+  color: var(--basic-color);
+  border: none;
+  width: 20px;
+  cursor: pointer;
+}

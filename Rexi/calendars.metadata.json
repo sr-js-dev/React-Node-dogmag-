@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Rexi.calendars"}],"uuid":"d1ce5d1052d248f8a965ab1b287b4e82"}

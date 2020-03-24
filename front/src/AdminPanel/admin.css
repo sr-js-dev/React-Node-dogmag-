@@ -1,0 +1,64 @@
+.addPro,
+.addProduct {
+  width: 100%;
+  background-color: var(--light-color);
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.addPro-container {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.addPro-form {
+  display: flex;
+  flex-direction: column;
+}
+.addPro-form h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.addPro-row {
+  display: flex;
+  margin-top: 10px;
+}
+
+.addPro-row ul {
+  list-style: none;
+}
+
+.addPro-row label {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.addPro-row input {
+  margin-left: 10px;
+  width: 250px;
+}
+
+.addCat-row {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.addCat-row input {
+  margin-left: 10px;
+  width: 100px;
+}
+.btnAddPrice {
+  size: 34px;
+  font-weight: bold;
+  cursor: pointer;
+}

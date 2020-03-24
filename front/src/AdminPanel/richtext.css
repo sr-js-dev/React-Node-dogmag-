@@ -1,0 +1,12 @@
+.rich-text-container {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+  min-height: 200px;
+}
+
+.editor {
+  margin-top: 10px;
+  background-color: var(--basic-color);
+  min-height: 6em;
+}

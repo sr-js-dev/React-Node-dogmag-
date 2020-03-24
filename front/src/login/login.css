@@ -1,0 +1,158 @@
+.wrap-main-login {
+  width: 100%;
+  background-color: var(--light-color);
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.container-main-login {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+
+.signin {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  min-width: 300px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signup {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  min-width: 300px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 350px;
+  align-items: center;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 450px;
+  align-items: center;
+}
+
+.signin-form h1 {
+  color: var(--basic-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  align-items: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+  align-items: center;
+}
+
+.signup-form h1 {
+  color: var(--basic-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signin-row input,
+.signup-row input {
+  padding-right: 5px;
+  height: 24px;
+  border: none;
+  font-size: 14px;
+}
+
+.input-email,
+.input-password {
+  width: 175px;
+}
+
+.input-name-right {
+  width: 80px;
+}
+
+.input-name-left {
+  margin-right: 10px;
+  width: 80px;
+}
+.btn-submit {
+  background-color: var(--basic-color);
+  height: 35px;
+  width: 80px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--gray-color);
+  box-shadow: 5px 5px #cf8600;
+  cursor: pointer;
+}
+
+.signin-row .forgotPassword a {
+  color: var(--basic-color);
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.more-options-login {
+  color: var(--basic-color);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.outside-login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.outside-login a {
+  text-decoration: none;
+}
+
+.outside-login h1 {
+  font-size: 32px;
+}
+
+.show-success,
+.show-loading {
+  color: var(--basic-color);
+  font-size: 24px;
+}
+
+.facebook-button {
+  background-color: #e69500;
+  font-size: 32px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,192 @@
+.add-professional-calendar {
+  width: 100%;
+  margin-top: 10px;
+  background-color: var(--light-color);
+  padding-top: 10px;
+}
+
+.add-professional-calendar-container {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.addProCalendar-form {
+  margin-bottom: 30px;
+}
+
+.addProCalendar-form h1 {
+  font-size: 18px;
+  color: var(--dark-color);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.calendarHours,
+.calendar-moreHours {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.calendarHours p,
+.calendar-moreHours p {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.addPro-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.p-day {
+  font-weight: bold;
+}
+
+.addPro-row > .calendarHours > input {
+  max-width: 100px;
+}
+
+.addPro-row > .calendarHours > p {
+  color: var(--gray-color);
+}
+
+.addPro-row > .calendar-moreHours > input {
+  max-width: 100px;
+}
+
+.addPro-row > .calendar-moreHours > p {
+  color: var(--gray-color);
+}
+
+.container-checkbox {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 24px;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container-checkbox p {
+  padding-right: 30px;
+  font-size: 16px;
+  color: var(--gray-color);
+  height: 22px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-li {
+  list-style-type: none;
+}
+
+/* Create a custom checkbox */
+.checkmarkDays {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  background-color: var(--basic-color);
+  border: 1px solid var(--gray-color);
+}
+
+.container-checkbox input:checked ~ .checkmarkDays {
+  background-color: var(--basic-color);
+}
+.container-checkbox input:checked ~ .calendar-firstshift {
+  color: var(--primary-color);
+}
+
+.checkmarkDays:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmarkDays:after {
+  display: block;
+}
+
+.container-checkbox input:checked ~ p {
+  color: var(--dark-color);
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmarkDays:after {
+  left: 5px;
+  top: 2px;
+  width: 3px;
+  height: 7px;
+  border: solid var(--primary-color);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.plus {
+  width: 20px;
+  height: 20px;
+  color: var(--primary-color);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addProCalendar-row {
+  display: flex;
+  justify-content: center;
+}
+
+.addProCalendar-row button {
+  margin-top: 20px;
+  padding: 10px;
+
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--basic-color);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.time_picker_container {
+  width: 300px;
+}
+
+.btn-timepeeker {
+  width: 50px;
+  height: 20px;
+  background-color: var(--basic-color);
+  margin-left: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-hour-div {
+  direction: ltr;
+}

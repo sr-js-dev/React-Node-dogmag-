@@ -1,0 +1,28 @@
+.star-rating {
+  width: 30px;
+  height: 30px;
+}
+
+.star-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.star-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.stars {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-around;
+}
+
+.star-red {
+  fill: var(--danger-color);
+}
+
+.star {
+  fill: var(--gray-color);
+}

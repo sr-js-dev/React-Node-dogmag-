@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Rexi.professions"},{"v":{"$numberInt":"2"},"unique":true,"key":{"professionName":{"$numberInt":"1"}},"name":"professionName_1","ns":"Rexi.professions","background":true}],"uuid":"b671646458c94279bb1ad7942e434438"}
